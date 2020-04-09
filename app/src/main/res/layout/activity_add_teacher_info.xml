@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grey"
+    android:scrollbars="none"
+    tools:context=".AddTeacherInfo">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        >
+
+        <EditText
+            android:id="@+id/initialEditText"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edit_text_bg"
+            android:hint="Initial"
+            android:textColorHint="@color/whitelight"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="@font/thin"
+            android:padding="10dp"
+            />
+
+        <EditText
+            android:id="@+id/nameEditText"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edit_text_bg"
+            android:hint="Name"
+            android:textColorHint="@color/whitelight"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:fontFamily="@font/thin"
+            android:layout_marginBottom="10dp"
+            android:padding="10dp"
+            />
+
+        <EditText
+            android:id="@+id/designationEditText"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edit_text_bg"
+            android:hint="Designation"
+            android:textColorHint="@color/whitelight"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:fontFamily="@font/thin"
+            android:layout_marginBottom="10dp"
+            android:padding="10dp"
+            />
+
+        <EditText
+            android:id="@+id/departmentEditText"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edit_text_bg"
+            android:hint="Department"
+            android:textColorHint="@color/whitelight"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:fontFamily="@font/thin"
+            android:layout_marginBottom="10dp"
+            android:padding="10dp"
+            />
+
+        <EditText
+            android:id="@+id/contactEditText"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edit_text_bg"
+            android:hint="Contact"
+            android:textColorHint="@color/whitelight"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:fontFamily="@font/thin"
+            android:layout_marginBottom="10dp"
+            android:padding="10dp"
+            />
+
+        <EditText
+            android:id="@+id/emailEditText"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edit_text_bg"
+            android:hint="Email"
+            android:textColorHint="@color/whitelight"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:fontFamily="@font/thin"
+            android:layout_marginBottom="10dp"
+            android:padding="10dp"
+            />
+
+        <Button
+            android:id="@+id/tcrInfoAdd"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="add"
+            android:layout_marginTop="15dp"
+            android:textSize="20sp"
+            android:background="@drawable/buttib_bg"
+            android:textColor="@color/white"
+            android:fontFamily="@font/bold"
+            />
+
+
+    </LinearLayout>
+
+
+
+</ScrollView>

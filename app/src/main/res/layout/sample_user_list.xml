@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/listItemId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/icon_id"
+        android:drawablePadding="5dp"
+        android:fontFamily="@font/reguler"
+        android:paddingBottom="4dp"
+        android:text="Id"
+        android:textColor="@color/whitelight"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/listItemName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:textColor="@color/whitelight"
+        android:fontFamily="@font/reguler"
+        android:textSize="20sp"
+        android:drawablePadding="5dp"
+        android:drawableLeft="@drawable/icon_name"
+        android:paddingBottom="4dp"
+        />
+
+    <TextView
+        android:id="@+id/listItemEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email"
+        android:textColor="@color/whitelight"
+        android:fontFamily="@font/reguler"
+        android:textSize="20sp"
+        android:drawablePadding="5dp"
+        android:drawableLeft="@drawable/icon_email"
+        android:paddingBottom="4dp"
+        />
+
+    <TextView
+        android:id="@+id/listItemUsername"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Username"
+        android:textColor="@color/white"
+        android:fontFamily="@font/reguler"
+        android:textSize="20sp"
+        android:drawableLeft="@drawable/icon_username"
+        android:drawablePadding="5dp"
+        android:paddingBottom="4dp"
+        />
+
+    <TextView
+        android:id="@+id/listItemPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Password"
+        android:textColor="@color/white"
+        android:fontFamily="@font/reguler"
+        android:textSize="20sp"
+        android:drawablePadding="5dp"
+        android:drawableLeft="@drawable/icon_password"
+        android:paddingBottom="4dp"
+        />
+
+</LinearLayout>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:background="@color/grey"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/initial"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SAH"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:paddingLeft="28dp"
+        />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dr. Syed Akhter Hossain"
+        android:layout_marginTop="10dp"
+        android:textSize="16sp"
+        android:drawableLeft="@drawable/icon_name"
+        android:drawablePadding="5dp"
+        android:textColor="@color/white"
+        />
+
+    <TextView
+        android:id="@+id/designation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Head"
+        android:textSize="16sp"
+        android:drawableLeft="@drawable/icon_designation"
+        android:drawablePadding="5dp"
+        android:textColor="@color/whitelight"
+        android:visibility="gone"
+        />
+
+    <TextView
+        android:id="@+id/department"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="CSE"
+        android:textSize="16sp"
+        android:drawableLeft="@drawable/icon_department"
+        android:drawablePadding="5dp"
+        android:textColor="@color/whitelight"
+        android:visibility="gone"
+        />
+
+    <TextView
+        android:id="@+id/contact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="01817382645"
+        android:layout_marginTop="10dp"
+        android:textSize="16sp"
+
+        android:drawableLeft="@drawable/icon_phone"
+        android:drawablePadding="5dp"
+        android:textColor="@color/whitelight"
+        android:visibility="gone"
+        />
+
+    <TextView
+        android:id="@+id/email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="aktarhossain@daffodilvarsity.edu.bd"
+        android:layout_marginTop="10dp"
+        android:textSize="16sp"
+
+        android:drawableLeft="@drawable/icon_email"
+        android:drawablePadding="5dp"
+        android:textColor="@color/whitelight"
+        android:visibility="gone"
+        />
+
+</LinearLayout>

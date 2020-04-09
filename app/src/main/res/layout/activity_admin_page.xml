@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/grey"
+    tools:context=".AdminPage">
+
+    <EditText
+        android:id="@+id/adminusernameEditText"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edit_text_bg"
+        android:hint="AdminName"
+        android:textColorHint="@color/whitelight"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:fontFamily="@font/thin"
+        android:padding="10dp"/>
+
+    <EditText
+        android:id="@+id/adminpasswordEditText"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edit_text_bg"
+        android:hint="Password"
+        android:textColorHint="@color/whitelight"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:fontFamily="@font/thin"
+        android:padding="10dp"
+        android:layout_marginTop="15dp"
+        android:inputType="textPassword"
+        />
+
+    <Button
+        android:id="@+id/adminsingInButton"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="sign in"
+        android:layout_marginTop="15dp"
+        android:textSize="20sp"
+        android:background="@drawable/buttib_bg"
+        android:textColor="@color/white"
+        android:fontFamily="@font/bold"
+        />
+
+</LinearLayout>
