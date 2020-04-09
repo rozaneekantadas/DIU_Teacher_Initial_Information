@@ -9,3 +9,7 @@ This is for database course. Android Application.
 <img height='320' weight='240' src="7pic.png"/>  <img height='320' weight='240' src="8pic.png"/>  <img height='320' weight='240' src="9pic.png"/>
 
 <img height='320' weight='240' src="10pic.png"/>
+
+<h1>Download Link</h1>
+
+<a href="https://github.com/supto-das/DIU_Teacher_Initial_Information/blob/master/app-debug.apk">Download</a>
