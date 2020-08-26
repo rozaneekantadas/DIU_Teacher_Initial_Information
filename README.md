@@ -1,6 +1,15 @@
 # DIU_Teacher_Initial_Information
+This is an andorid apps which is made for Database Management System Course. 
 
-This is for database course. Android Application.
+# Features
+- User can create user account and show the teacher information
+- User can find teacher information search by teacher initial
+
+# Use Tools
+- Android Studio (XML + Java)
+- SQLite Database
+
+# Screen Shots
 
 <img height='320' weight='240' src="1pic.png"/>  <img height='320' weight='240' src="2pic.png"/>  <img height='320' weight='240' src="3pic.png"/>
 
